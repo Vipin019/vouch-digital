@@ -1,0 +1,30 @@
+#container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.image{
+    width: 100%;
+}
+.image img{
+    width: 100%;
+}
+
+
+/* =====================MEDIA QUERIES (MEDIUM DEVICIES)================== */
+@media screen and (max-width: 1024px){
+    #container{
+        grid-template-columns: 50% 50%;
+    }
+}
+
+
+/* =====================MEDIA QUERIES (SMALL DEVICIES)================== */
+@media screen and (max-width: 700px){
+    #container{
+        grid-template-columns: 100% 0%;
+    }
+    .image{
+        display: none;
+    }
+}

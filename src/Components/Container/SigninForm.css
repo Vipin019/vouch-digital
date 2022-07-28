@@ -1,0 +1,73 @@
+#signinForm{
+    text-align: center;
+    margin-top: 6rem;
+    margin-left: 30%;
+}
+#signinForm .ccs{
+    margin-top: .8rem;
+}
+.heading h1{
+    font-size: 1rem;
+}
+.heading small{
+    font-size: .5rem;
+}
+.email input{
+    width: 55%;
+    height: 1.8rem;
+    font-size: .6rem;
+    border-radius: .2rem;
+}
+.passward input{
+    width: 55%;
+    height: 1.8rem;
+    font-size: .6rem;
+    border-radius: .2rem;
+}
+.loginbtn input{
+    width: 55%;
+    height: 1.8rem;
+    font-size: .6rem;
+    background: var(--primary-color);
+    color: white;
+    border-radius: .2rem;
+}
+.loginbtn input:hover{
+    background: white;
+    color: var(--primary-color);
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 22.9%;
+    margin-right: 22.9%;
+}
+.bottom__checkBox{
+    font-size: .5rem;
+}
+.bottom__forgetPassward{
+    font-size: .5rem;
+}
+#checkBox{
+    height: .5rem;
+    width: .5rem;
+}
+
+
+
+/* =====================MEDIA QUERIES (MEDIUM DEVICIES)================== */
+@media screen and (max-width: 1024px){
+    #signinForm{
+        margin-top: 4rem;
+        margin-left: 25%;
+    }
+}
+
+
+/* =====================MEDIA QUERIES (SMALL DEVICIES)================== */
+@media screen and (max-width: 700px){
+    #signinForm{
+        margin-left: 0rem;
+    }
+}
